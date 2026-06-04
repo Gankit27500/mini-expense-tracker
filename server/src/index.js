@@ -16,6 +16,16 @@ const clientOrigin = process.env.CLIENT_ORIGIN ?? "http://localhost:5173";
 app.use(cors({ origin: clientOrigin }));
 app.use(express.json());
 
+app.get("/", (_request, response) => {
+  response.json({
+    name: "Mini Expense Tracker API",
+    status: "running",
+    health: "/api/health",
+    expenses: "/api/expenses",
+    summary: "/api/summary"
+  });
+});
+
 app.get("/api/health", (_request, response) => {
   response.json({ ok: true });
 });
