@@ -1,0 +1,38 @@
+{
+  "expenses": [
+    {
+      "id": "exp_1001",
+      "amount": 520,
+      "category": "Food",
+      "date": "2026-06-02",
+      "note": "Team lunch",
+      "createdAt": "2026-06-02T10:30:00.000Z",
+      "updatedAt": "2026-06-02T10:30:00.000Z"
+    },
+    {
+      "id": "exp_1002",
+      "amount": 1400,
+      "category": "Bills",
+      "date": "2026-06-01",
+      "note": "Internet bill",
+      "createdAt": "2026-06-01T08:15:00.000Z",
+      "updatedAt": "2026-06-01T08:15:00.000Z"
+    },
+    {
+      "id": "exp_1003",
+      "amount": 260,
+      "category": "Transport",
+      "date": "2026-05-28",
+      "note": "Metro card top-up",
+      "createdAt": "2026-05-28T18:10:00.000Z",
+      "updatedAt": "2026-05-28T18:10:00.000Z"
+    }
+  ],
+  "budgets": {
+    "Food": 8000,
+    "Transport": 3000,
+    "Bills": 12000,
+    "Entertainment": 4000,
+    "Other": 2500
+  }
+}
