@@ -6,12 +6,9 @@ This project completes **Exercise 2: Mini Expense Tracker** from the Studio Grap
 
 ## Live Demo Links
 
-Not deployed yet. Recommended deployment plan:
-
-- Frontend: Vercel or Netlify
-- Backend: Render or Railway
-
-When deployed, set the frontend environment variable `VITE_API_BASE_URL` to the deployed backend API URL ending in `/api`.
+- Frontend: https://mini-expense-tracker-26jc.vercel.app
+- Backend API: https://mini-expense-tracker-sqlq.onrender.com
+- API Health Check: https://mini-expense-tracker-sqlq.onrender.com/api/health
 
 ## Tech Stack
 
